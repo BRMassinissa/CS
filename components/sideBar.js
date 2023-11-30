@@ -15,10 +15,8 @@ const ProfileBar = () => {
       </TouchableOpacity>
       {expanded && (
         <View style={styles.profileContainer}>
-          {/* Contenu de la barre de profil */}
           <Text style={styles.profileText}>Nom d'utilisateur</Text>
           <Text style={styles.profileText}>Email@example.com</Text>
-          {/* ... Autres éléments de profil */}
         </View>
       )}
     </View>
